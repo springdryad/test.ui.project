@@ -18,7 +18,7 @@ public class SampleTestClass {
   public void sampleTestMethod() {
     driver.get("https://www.google.com/");
     driver.findElement(By.cssSelector("input[name='q']")).sendKeys("Арбуз");
-    assert 1 == 1;
+    assert 2 == 2;
   }
 
   @AfterTest()
